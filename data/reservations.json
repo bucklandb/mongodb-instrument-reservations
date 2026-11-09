@@ -1,0 +1,118 @@
+[
+  {
+    "reservation_id": "BIO-1001",
+    "researcher": {
+      "researcher_id": "R-2048",
+      "name": {
+        "first": "Maya",
+        "last": "Chen"
+      },
+      "contact": {
+        "email": "maya.chen@example.com",
+        "phone": "555-0101"
+      },
+      "department": "Molecular Biology",
+      "completed_training": [
+        "PCR Safety",
+        "Core Lab Orientation"
+      ]
+    },
+    "instrument": {
+      "asset_id": "PCR-07",
+      "instrument_name": "Real-Time PCR Thermocycler",
+      "model": "qPCR-500",
+      "lab_location": {
+        "building": "Life Sciences Center",
+        "room": "B214"
+      },
+      "training_required": "PCR Safety"
+    },
+    "reservation_window": {
+      "start": "2026-07-13T09:00:00+00:00",
+      "end": "2026-07-13T11:00:00+00:00"
+    },
+    "preparation_requirements": [
+      "Run temperature verification",
+      "Place optical reaction plates at station"
+    ],
+    "research_purpose": "Gene expression training experiment",
+    "reservation_status": "Confirmed"
+  },
+  {
+    "reservation_id": "BIO-1002",
+    "researcher": {
+      "researcher_id": "R-3116",
+      "name": {
+        "first": "Noah",
+        "last": "Williams"
+      },
+      "contact": {
+        "email": "noah.williams@example.com",
+        "phone": "555-0102"
+      },
+      "department": "Biotechnology",
+      "completed_training": [
+        "Centrifuge Safety",
+        "Core Lab Orientation"
+      ]
+    },
+    "instrument": {
+      "asset_id": "CENT-03",
+      "instrument_name": "Refrigerated Centrifuge",
+      "model": "RC-24",
+      "lab_location": {
+        "building": "Life Sciences Center",
+        "room": "B216"
+      },
+      "training_required": "Centrifuge Safety"
+    },
+    "reservation_window": {
+      "start": "2026-07-13T11:30:00+00:00",
+      "end": "2026-07-13T13:00:00+00:00"
+    },
+    "preparation_requirements": [
+      "Pre-cool rotor to 4 degrees Celsius",
+      "Inspect rotor and balance adapters"
+    ],
+    "reservation_status": "Confirmed",
+    "research_purpose": "Protein sample preparation"
+  },
+  {
+    "reservation_id": "BIO-1003",
+    "researcher": {
+      "researcher_id": "R-4275",
+      "name": {
+        "first": "Aisha",
+        "last": "Patel"
+      },
+      "contact": {
+        "email": "aisha.patel@example.com",
+        "phone": "555-0103"
+      },
+      "department": "Bioengineering",
+      "completed_training": [
+        "Core Lab Orientation"
+      ]
+    },
+    "instrument": {
+      "asset_id": "PLATE-04",
+      "instrument_name": "Microplate Reader",
+      "model": "MR-200",
+      "lab_location": {
+        "building": "Life Sciences Center",
+        "room": "B218"
+      },
+      "training_required": "Plate Reader Training"
+    },
+    "reservation_window": {
+      "start": "2026-07-13T14:00:00+00:00",
+      "end": "2026-07-13T15:30:00+00:00"
+    },
+    "preparation_requirements": [
+      "Run calibration plate",
+      "Confirm 450 nm filter setting"
+    ],
+    "reservation_status": "Pending",
+    "research_purpose": "Colorimetric assay pilot"
+  }
+]

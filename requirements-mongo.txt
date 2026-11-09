@@ -1,0 +1,2 @@
+# Optional. Offline preview/tests use only the Python standard library.
+pymongo==4.19.0
